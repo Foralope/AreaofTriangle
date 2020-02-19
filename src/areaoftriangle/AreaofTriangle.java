@@ -36,6 +36,7 @@ public class AreaofTriangle {
         System.out.println("3rd length: "+c);
         //Calculating area.
         area = sqrt(s*(s-a)*(s-b)*(s-c));
+        //Printing the result out.
         System.out.println("The area of your triangle is: "+area+"units squared.");
     }
     
